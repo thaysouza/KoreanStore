@@ -1,0 +1,154 @@
+
+
+p{
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+li {
+    cursor: pointer;
+}
+
+
+
+#formas-pagamento{
+ color:red;
+}
+.logo-menu{
+    color:  rgb(233, 86, 184);
+    font-weight: bold;
+}
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+
+.menu{
+    background-color: rgb(233, 86, 184);
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+
+#principal h2{
+    color: red;
+}
+
+#principal p{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(233, 86, 184);
+    
+}
+
+
+/*Produtos*/
+
+
+header h2{
+    font-size: 30px;
+}
+
+
+.categorias{
+    width: 200px;
+    position: absolute;
+    float:left;
+    background: white;
+
+}
+
+.categorias h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.categorias li{
+    padding: 10px;
+}
+
+.produtos{
+    width:80%;
+    float: right;
+    height: auto;
+   padding-left: 100px;
+    text-align: center;
+
+}
+
+.produtos .box_produto{
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    margin: 5px;
+    text-align: center;
+    vertical-align: bottom;
+    width: 220px;
+}
+
+
+#rodape{
+    margin-top: 30px;
+}
+
+.clear{
+    clear: both;
+}
+
+.produtos .box_produto .preco{
+    margin-top: -10px;
+    color: #ff0000;
+    font-size: 20px;
+}
+
+.produtos .box_produto .descricao-preco{
+    text-decoration:  line-through;
+}
+
+
+#rodape{
+    text-align: center;
+
+}
+/* ---------- FALE CONOSCO ----------- */
+section.contato{
+    margin-top: 50px;
+}
+
+.logo{
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+
+/*----------------- LOJAS --------------------------*/
+
+
+.lojas{
+    text-align: center;
+}
+
+ .tel{
+    color:  rgb(233, 86, 184);
+
+}
+
+.loja h3{
+ font-weight: bold;
+ font-size: 25px;
+}
+
+
+@media(min-width: 425px) {
+
+.index{
+    font-size:20px;
+}
+
+}
